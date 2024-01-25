@@ -15,6 +15,7 @@ const onClick = () => {
   store.increment()
   api.onClick()
 }
+console.log(import.meta.env)
 const router = useRouter()
 const clickAbout = () => {
   router.push({ name: 'About' })

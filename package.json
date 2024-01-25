@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run lint && vite build",
+    "build:dev": "npm run lint && vite build --mode dev",
+    "build:prod": "npm run lint && vite build --mode prod",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --ext .js,.vue src --fix",
